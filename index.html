@@ -3,14 +3,14 @@
 <html>
 <head>
     <title>Trading Signals</title>
-    <link rel="stylesheet" href="css/jquery.mobile-1.1.1.min.css" />
-    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mobile-1.1.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/jquery.mobile-1.1.1.min.css" />
+    <script type="text/javascript" src="assets/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mobile-1.1.1.min.js"></script>
 </head>
 <body>
-        <form id="form1" runat="server">
+        <form id="form1" >
     <div data-role="page" data-theme="c">
-        <div data-role="header">
+        <div data-role="header"  data-theme="b">
 		<h1>Trading Signals</h1>
         </div>
         <div data-role="content">
@@ -27,12 +27,24 @@
                     <label for="Text3">Text Input:</label>
                     <input id="Text3" name="Text3"  type="text" />
                 </li>
+                <li data-role="fieldcontain">
+                    <label for="Text4">Text Input:</label>
+                    <input id="Text4" name="Text4"  type="text" />
+                </li>
+                <li data-role="fieldcontain">
+                    <label for="Text5">Text Input:</label>
+                    <input id="Text5" name="Text5"  type="text" />
+                </li>
+                <li data-role="fieldcontain">
+                    <label for="Text6">Text Input:</label>
+                    <input id="Text6" name="Text6"  type="text" />
+                </li>
             </ul>
-            <a data-role="button" data-theme="b">Test Button</a>
-            <a data-role="button">Test Button2</a>
+            <a data-role="button" data-theme="b" href="pages/testpage.html" >Test Button</a>
+            <a data-role="button" href="test.html" >Test Button2</a>
 
         </div>
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer" data-position="fixed"  data-theme="b">
             <div data-role="navbar">
                 <ul>
                     <li><a href="#">Home</a></li>
